@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.img{
+  padding: 7px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-data{
+  display: block;
+
+  margin-bottom: 8px;
+  color: #3698db;
+  font-size: 15px;
+}
+input[type="text"]{
+  padding: 12px;
+  width: 23vw;
+  border: 2px solid #3698db;
+  margin-bottom: 8px;
+}
+.button{
+  margin-top: 10px;
+}
+
+.generate{
+  background-color: #3698db;
+}
+.download{
+  background-color: green;
+  margin-left: 10px;
+}
